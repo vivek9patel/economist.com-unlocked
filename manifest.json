@@ -1,0 +1,26 @@
+{
+    "name": "Economist Unlocked: Read Paid Articles for Free & with no Ads",
+    "description": "Unlocks economist.com! No Subscription, No Ads, No Membership, Unlimited Reding!!!",
+    "short_name": "Economist Unlocked",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "browser_action": {
+      "default_icon": "static/logo-128.png",
+      "default_title": "Unlock Economist.com"
+    },
+    "content_scripts": [
+      {
+        "css": [ "extenCard.css" ],
+        "matches": [
+          "https://www.economist.com/*"
+        ],
+        "js": ["main.js"]
+      }
+    ],
+    "icons": {
+      "16": "static/logo-16.png",
+      "48": "static/logo-48.png",
+      "128": "static/logo-128.png"
+    }
+  }
+  

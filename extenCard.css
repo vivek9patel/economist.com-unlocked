@@ -1,0 +1,57 @@
+html {
+    overflow-x: hidden;
+}
+
+.exten-card {
+    --exten-card-width: 180px;
+    --exten-card-height: 100px;
+    width: var(--exten-card-width);
+    height: var(--exten-card-height);
+    padding: 5px 10px;
+    position: absolute;
+    top: calc(1px - var(--exten-card-height));
+    right: calc(100vw - 50% - 90px);
+    background-color: orangered;
+    transition: 500ms all;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    animation: disappear 3s;
+}
+
+.exten-card .exten-desc {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.exten-card .exten-auth {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+}
+
+.exten-card:hover {
+    top: 0px;
+    cursor: pointer;
+}
+
+@keyframes disappear {
+    0% {
+        top: 0px;
+    }
+
+    50% {
+        top: 0;
+    }
+
+    75% {
+        top: 0;
+    }
+
+    100% {
+        top: -95px;
+    }
+}
