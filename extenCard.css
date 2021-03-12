@@ -18,7 +18,7 @@ html {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    animation: disappear 3s;
+    animation: disappear 2s;
 }
 
 .exten-card .exten-desc {

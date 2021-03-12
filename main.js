@@ -75,7 +75,7 @@ let addExtenCard = (content)=>{
 
     desc.innerHTML = "This Page is Unlocked!!!"
     author.innerHTML = "By vivek9patel"
-    author.href = "https://github.com/vivek9patel"
+    author.href = "https://www.linkedin.com/in/vivek9patel/"
     author.setAttribute("target", "_blank")
 
     card.appendChild(desc)
