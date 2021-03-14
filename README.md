@@ -4,6 +4,18 @@
 
 A Chrome Extension to read Paid Articles of economist.com for Free &amp; with no Ads, no subscription, no memberships!
 
+## Screenshot
+<p align="center">
+
+### Before:
+
+<img src="./static/2.png" />
+
+### After:
+
+<img src="./static/1.png"/>
+</p>
+
 ## How to install
 
 - Download Zip file from github repository & unzip it
